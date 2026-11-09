@@ -1,0 +1,424 @@
+header{
+    position : fixed;
+    top : 0px;
+    left : 0px;
+    width : 100%;
+    font-size : 14px;
+    box-sizing : border-box;
+    display : flex;
+    flex-wrap : nowrap;
+    align-items : center;
+    justify-content : space-between;
+    gap : 35px;
+    height : 35px;
+    font-family : 'Nunito', sans-serif;
+    background-color: #000538;
+    color : #fff;
+
+}
+
+body{
+    background-color : #eee;
+    background-image : url(images/Site-background-light.png);
+    background-position : bottom left;
+    background-size : auto;
+    background-repeat : no-repeat;
+    background-attachment: fixed;
+    font-family : sans-serif;
+    accent-color : #fa9549;
+    box-sizing : border-box;
+    height : auto;
+    min-height : 100%;
+    margin : 0px;
+    display : block;
+}
+
+#mw-page-base{
+    height : 96px;
+    background : none;
+}
+
+
+
+
+
+.header-left{
+    display : flex;
+    align-items : center;
+    gap : 11.2px;
+}
+
+.wiki-btn{
+    padding : 5px;
+}
+
+.wiki-btn img{
+    height : 25px;
+    width : auto;
+    border : 0px;
+    vertical-align : middle;
+}
+
+.deals-btn{
+    display : inline-flex;
+    align-items : center;
+    box-sizing : border-box;
+    gap : 5px;
+    height : 20px;
+    padding : 10px;
+    border-radius : 5.6px;
+    background-color : #29305c;
+    white-space : nowrap;
+    transition: background-color 0.2s;
+    color : #fff;
+}
+.deals-btn img{
+    width : 14px;
+    height : 14px;
+    border: 0px;
+    vertical-align : middle;
+
+    overflow-clip-margin : content-box;
+    overflow : clip;
+}
+
+.header-right{
+    position : static;
+    width : 196.99px;
+    height : 32.79;
+    display : flex;
+    flex-wrap : nowrap;
+    align-items : center;
+    justify-content : flex-end;
+    gap : 10.5px;
+    list-style : none;
+    margin : 0px;
+}
+
+.icon-btn{
+    display : block;
+    padding : 6.4px;
+    font-size : 0px;
+    transition : all 0.3s;
+}
+
+.icon-btn img{
+    width : 20px;
+    height : 20px;
+    background : #FFFFFF;
+}
+
+.link{
+    word-break : keep-all;
+    white-space : nowrap;
+    color : #fff;
+    font-family :  Nunito, sans-serif;
+    font-size : 14px;
+    width : 93.7px;
+    height : 18.67px;
+    margin-bottom: 0;
+    border-left : 1px solid #2e3460;
+    padding-left : 10.5px;
+}
+
+.link.login{
+    width : 38.33px;
+    height : 18.67px;
+    color : #fff;
+    font-family : 14px, Nunito, sans-serif;
+    border-left : none;
+    padding-left : 0px;
+    
+}
+
+
+
+a{
+    text-decoration : none;
+}
+
+a:hover{
+    text-decoration : underline;
+}
+
+#mw-head-base{
+    background : #00000000;
+    margin-top : 35px;
+    margin-left : 185.6px;
+    display : flex;
+    background-position : center center;
+    background-repeat : no-repeat;
+    background-size : contain;
+    
+}
+
+.mw-wiki-logo-container{
+    margin-left : 0px;
+    margin-top : -1px;
+    display : flex;
+    justify-content : center;
+}
+
+.mw-wiki-logo{
+    width : 247.423px;
+    height : 96px;
+    background-position : center center;
+    background-repeat : no-repeat;
+    display : block;
+    background-size : contain;
+    background-image : url(images/Site-logo.png);
+}
+
+.content-wrapper{
+    display : flex;
+    width : 100%;
+    font-family : "Noto Sans", system-ui, sans-serif;
+}
+
+
+.sidebar {
+    width: 160px;
+    flex-shrink: 0;
+    padding-left: 0.5em;
+}
+
+.sidebar-box {
+    background: #e0e0e0;
+    border-radius: 10px;
+    border : 0px;
+    padding: 4px;
+    margin : 8px;
+    margin-bottom: 10px;
+    font-family: "Noto Sans", system-ui, sans-serif;
+}
+
+.sidebar-title {
+    text-align: center;
+    border-bottom: 1px solid #fa9549;
+    padding: 3.6px;
+    margin: 3.6px;
+    font-size: 14.4px;
+    color: #111111;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.5em 0;
+}
+
+.sidebar-list a {
+    color: #0645ad;     
+    margin : 0;   
+
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Noto Sans", system-ui, sans-serif;
+    display: block;
+    padding: 3px;
+    font-weight : 600;
+    line-height : 13.5px;
+    word-wrap : break-word;
+    padding-top : 3.6px;
+    padding-left : 6px;
+    
+}
+
+.sidebar-list a img {
+    width : 15px;
+    height : 15px;
+    display : inline-block;
+    margin-right: 4px;
+}
+
+.main-content {
+    flex : 1;
+    display : flex;
+    flex-direction : column;
+    background: #e0e0e0;
+    border-radius: 24px;
+    border : 0px;
+    
+    
+    margin : 8px;
+    margin-bottom: 10px;
+    font-family: "Noto Sans", system-ui, sans-serif;
+}
+
+.top-bar {
+    border-bottom: 1px solid #aaaaaa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height : 41px;
+    align-items: stretch;
+        display: flex;
+    justify-content: space-between;
+    align-items: stretch;      /* вкладки растянутся на всю высоту */
+    border-bottom: 1px solid #aaa;
+    padding: 0 8px;   
+    padding-left: 20px;
+    font-size : 13px;         
+}
+
+
+
+.top-bar-left,
+.top-bar-right {
+    display: flex;
+    align-items: stretch;      
+}
+
+.tab {
+    display: flex;
+    align-items: center;       
+    padding: 0 16px;           
+}
+
+.tab.active {
+    background : #fa9549;
+    color : #000;
+    padding : 9.1px;
+    font-family: "Noto Sans", system-ui, sans-serif;
+}
+
+.search {
+    margin : 8px; 
+    width : 320px;
+    border: 1px solid #aaa;
+    background: #d7d7d7 url("images/search-icon.svg") no-repeat right 8px center;
+    background-size: 16px;
+    font-family: inherit;
+    color : #111111;
+}
+
+.ad-box {
+    max-width: 1222px;
+    margin: 0 auto;             
+    display: flex;
+    align-items: stretch;       
+    justify-content: center;    
+    
+    padding: 10px 0;
+    margin-top: 10px; 
+}
+
+.ad{
+    width: 728px;
+    height: 90px;
+    display: block;
+}
+
+.main-columns {
+    display: flex;
+    gap: 15px;
+    margin: 10px;
+}
+
+.left-col {
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.right-col {
+    
+    
+    display: flex;
+    width : 100px;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.fp-box {
+    margin: 5px;
+    margin-bottom: 15px;
+    overflow: auto;
+    border-radius: 20px 20px 5px 5px;
+    box-sizing: border-box;
+    background: #e0e0e0;   /* фон коробки, если нужен */
+}
+
+.welcome-header {
+    position: relative;
+    background:
+        url("images/Bolt.png") no-repeat bottom left border-box,
+        url("images/Bolt.png") no-repeat bottom right border-box,
+        url("images/Middle.png") repeat-x center left border-box,
+        linear-gradient(to bottom, #465461, #4F4136);
+    background-size: 0.6em, 0.6em, 1px 0.3em, auto;
+    border-radius: 0.7em 20px 0 0; 
+    box-shadow: inset 0 0 20px 0 rgba(0,0,0,0.25);
+    text-align: center;
+    color: #E2E9EF;
+    padding: 10px 20px
+    
+    /* padding : 1px 1px; */
+    
+}
+
+.welcome-header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 1px 1px;
+    background: url("images/Texture.png") repeat;
+    opacity: 0.05;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.welcome-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;              /* размер уголка */
+    height: 20px;
+    background: url("images/Corner_top_left.png") no-repeat;
+    background-size: contain;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.welcome-title {
+    position: relative;
+    font-family: 'Satisfontory_v1.5', "Noto Sans", system-ui, sans-serif;
+    color: #f2f2f2;
+    background: linear-gradient(to top, #ADC8DD, #FEFFFE, #E2E9EF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    z-index: 2;
+    font-weight : bold;
+    font-size : 39px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Satisfontory_v1.5';
+    src: url('fonts/Satisfontory_v1.5.ttf') format('truetype');
+}
+
+
+.welcome-body {
+    margin-top: 0;
+    background: #cacaca;
+    border-radius: 0 0 10px 10px;
+    border : 0px;
+    padding: 4px;
+    margin: 0 0 10px 0;
+    margin-bottom: 10px;
+    font-family: "Noto Sans", system-ui, sans-serif;
+    align-items : center;
+}
+
+.welcome-body p:first-child {
+    margin-top: 20px;   /* отступ сверху у первого абзаца */
+}
